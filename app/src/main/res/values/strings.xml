@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!--Game-->
+    <string name="player_x_label">Player X: </string>
+    <string name="player_o_label">Player O: </string>
+    <string name="computer_label">Computer: </string>
+    <string name="starting_score">0</string>
+
+    <!--Difficulty Activity-->
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="pick_level_label">Pick a level:</string>
+
+    <!--Main Activity-->
+    <string name="quit_game">Quit Game</string>
+    <string name="two_player">Two Player</string>
+    <string name="play_against_computer">Play Against Computer</string>
+
+    <!--Win Dialog-->
+    <string name="computer_wins">Computer Wins!</string>
+    <string name="player_wins">Player Wins!</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

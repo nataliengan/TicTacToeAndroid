@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/difficulty_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/hard"
+        android:layout_below="@+id/medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_red_light" />
+
+    <Button
+        android:text="@string/difficulty_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:id="@+id/easy"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/pick_level_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickALevel"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="104dp"
+        android:layout_above="@+id/medium"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/difficulty_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medium"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/easy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
